@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Masjid Al Haram",
+    "id": "masjid-al-haram",
+    "img_url": "http://localhost:5173/images/6.jpg",
+    "address": "Mecca, Saudi Arabia",
+    "about": "Masjid Al Haram is the largest and holiest mosque in Islam, located in Mecca, Saudi Arabia. It surrounds the Kaaba, the most sacred site in Islam, and is the focal point for millions of Muslims during the Hajj pilgrimage.",
+    "contact": "+966-123-456-789",
+    "location": {
+      "latitude": 21.4225,
+      "longitude": 39.8262
+    }
+  },
+  {
+    "name": "Masjid Al Nabawi",
+    "id": "masjid-al-nabawi",
+    "img_url": "http://localhost:5173/images/3.jpg",
+    "address": "Medina, Saudi Arabia",
+    "about": "Masjid Al Nabawi is the second holiest mosque in Islam, located in Medina, Saudi Arabia. It is the burial site of the Prophet Muhammad (PBUH), and it holds great spiritual significance for Muslims.",
+    "contact": "+966-987-654-321",
+    "location": {
+      "latitude": 24.4697,
+      "longitude": 39.6117
+    }
+  },
+  {
+    "name": "Masjid Al Aqsa",
+    "id": "masjid-al-aqsa",
+    "img_url": "http://localhost:5173/images/1.jpg",
+    "address": "Jerusalem, Palestine",
+    "about": "Masjid Al Aqsa is one of the holiest sites in Islam, located in Jerusalem. It is the first qibla for Muslims and the site of the Night Journey of the Prophet Muhammad (PBUH).",
+    "contact": "+972-2-658-0000",
+    "location": {
+      "latitude": 31.7767,
+      "longitude": 35.2345
+    }
+  },
+  {
+    "name": "Masjid Al Fath",
+    "id": "masjid-al-fath",
+    "img_url": "http://localhost:5173/images/6.jpg",
+    "address": "Cairo, Egypt",
+    "about": "Masjid Al Fath is an important mosque in Cairo, Egypt, renowned for its Islamic architecture. It is a hub for religious education and community activities in the region.",
+    "contact": "+20-2-12345678",
+    "location": {
+      "latitude": 30.0333,
+      "longitude": 31.2333
+    }
+  },
+  {
+    "name": "Masjid Sultan Ahmed (Blue Mosque)",
+    "id": "masjid-sultan-ahmed",
+    "img_url": "http://localhost:5173/images/3.jpg",
+    "address": "Istanbul, Turkey",
+    "about": "The Masjid Sultan Ahmed, also known as the Blue Mosque, is one of Istanbul's most famous landmarks, known for its stunning architecture and grand blue-tiled interior.",
+    "contact": "+90-212-518-1311",
+    "location": {
+      "latitude": 41.0056,
+      "longitude": 28.9760
+    }
+  },
+  {
+    "name": "Masjid Al Hassan II",
+    "id": "masjid-al-hassan-ii",
+    "img_url": "http://localhost:5173/images/1.jpg",
+    "address": "Casablanca, Morocco",
+    "about": "Masjid Al Hassan II is one of the largest mosques in the world, situated in Casablanca, Morocco. It is famous for its beautiful location on the Atlantic coast and its towering minaret.",
+    "contact": "+212-522-490-100",
+    "location": {
+      "latitude": 33.5898,
+      "longitude": -7.6037
+    }
+  },
+  {
+    "name": "Masjid Al Fateh",
+    "id": "masjid-al-fateh",
+    "img_url": "http://localhost:5173/images/6.jpg",
+    "address": "Manama, Bahrain",
+    "about": "Masjid Al Fateh is one of the largest mosques in Bahrain. Known for its grand architecture, the mosque is an important religious and cultural center in the country.",
+    "contact": "+973-177-14411",
+    "location": {
+      "latitude": 26.2247,
+      "longitude": 50.6027
+    }
+  },
+  {
+    "name": "Masjid Al Azhar",
+    "id": "masjid-al-azhar",
+    "img_url": "http://localhost:5173/images/3.jpg",
+    "address": "Cairo, Egypt",
+    "about": "Masjid Al Azhar is one of the most renowned mosques in Egypt, and it is part of Al Azhar University, the leading center of Islamic scholarship in the world.",
+    "contact": "+20-2-259-2090",
+    "location": {
+      "latitude": 30.0335,
+      "longitude": 31.2357
+    }
+  },
+  {
+    "name": "Masjid Al Haram (Expansion)",
+    "id": "masjid-al-haram-expansion",
+    "img_url": "http://localhost:5173/images/1.jpg",
+    "address": "Mecca, Saudi Arabia",
+    "about": "The expansion of Masjid Al Haram is one of the largest mosque expansions in the world. It is designed to accommodate millions of worshippers during the Hajj pilgrimage.",
+    "contact": "+966-123-456-789",
+    "location": {
+      "latitude": 21.4225,
+      "longitude": 39.8262
+    }
+  }
+]
