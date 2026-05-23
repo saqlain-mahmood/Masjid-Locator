@@ -1,12 +1,46 @@
-# React + Vite
+# Masjid Locator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web app to discover masjids around the world. Built with **Next.js 15 (App Router) + TypeScript + Prisma + SQLite + Tailwind + Leaflet/OpenStreetMap**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🕌 Browse masjids on an interactive map (Leaflet + OpenStreetMap)
+- 🔎 Search by name, city, country
+- 🕒 Live prayer times for each masjid (Aladhan API — no key needed)
+- ⭐ Community reviews (1–5 stars + comment)
+- ❤️ Favorites — bookmark masjids you love
+- 🧭 One-tap directions
+- 👤 Sign up / log in (JWT + bcrypt + httpOnly cookies)
+- ➕ Authenticated users can add new masjids
 
-## Expanding the ESLint configuration
+## Security hardening
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Passwords hashed with **bcrypt**.
+- Auth uses **JWT in httpOnly, SameSite=Lax cookies** (no localStorage).
+- All API input validated with **Zod**.
+- **Rate limiting** on login/signup.
+- **CSP + X-Frame-Options + nosniff + Referrer-Policy + Permissions-Policy** in [next.config.js](next.config.js).
+- Constant-time-ish password verification (always runs bcrypt) on login.
+- Prisma ORM = no SQL injection.
+- `poweredByHeader` disabled.
+
+## Quick start
+
+```bash
+npm install
+cp .env.example .env          # then set a real JWT_SECRET
+npm run setup                  # generates Prisma client, creates DB, seeds data
+npm run dev
+```
+
+Open http://localhost:3000.
+
+Demo admin (from seed): `admin@masjidlocator.dev` / `admin1234` — change in production.
+
+## Scripts
+
+- `npm run dev` — start dev server
+- `npm run build` — production build
+- `npm run start` — start production server
+- `npm run db:seed` — re-seed the database
+- `npm run db:studio` — open Prisma Studio
