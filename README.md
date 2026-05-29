@@ -1,4 +1,4 @@
-# Masjid Locator 
+# Masjid Locator : 
 
 A full-stack web app to discover masjids around the world. Built with **Next.js 15 (App Router) + TypeScript + Prisma + SQLite + Tailwind + Leaflet/OpenStreetMap**.
 
