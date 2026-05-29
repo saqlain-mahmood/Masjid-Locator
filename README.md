@@ -37,7 +37,7 @@ Open http://localhost:3000.
 
 Demo admin (from seed): `admin@masjidlocator.dev` / `admin1234` — change in production.
 
-## Scripts
+## Scripts : 
 
 - `npm run dev` — start dev server
 - `npm run build` — production build
